@@ -1,50 +1,76 @@
-# Welcome to your Expo app 👋
+# 🎬 VidioCloneMobile
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+VidioCloneMobile adalah aplikasi mobile yang meniru tampilan UI dari aplikasi streaming **Vidio.com**.  
+Dibangun menggunakan **React Native (Expo)** dan **Tailwind (twrnc)** untuk desain yang fleksibel dan cepat.
 
-## Get started
+Aplikasi ini fokus pada **tampilan UI saja**, tanpa fitur streaming.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## ✨ Fitur UI yang Tersedia
+- ✅ Header dengan icon Search, Notifikasi, dan Menu
+- ✅ Carousel Banner konten utama
+- ✅ Kategori ikon (kumpulan tombol bulat)
+- ✅ Section *Vidio Originals* (horizontal scroll)
+- ✅ Section *Paling Dicari Anak* (horizontal scroll)
+- ✅ Tampilan modern & responsif dengan **Tailwind twrnc**
 
-2. Start the app
+---
 
-   ```bash
-    npx expo start
-   ```
+## 🧰 Teknologi yang Digunakan
 
-In the output, you'll find options to open the app in a
+| Teknologi | Keterangan |
+|----------|------------|
+| React Native (Expo) | Framework utama aplikasi mobile |
+| twrnc | Tailwind CSS untuk styling |
+| Expo Vector Icons | Icon UI |
+| SafeAreaView | Agar layout aman dari notch & status bar |
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 📦 Cara Install & Jalankan
 
-## Get a fresh project
+### 1. Clone Repository
+git clone https://github.com/RasyaIskandar/VidioCloneMobile.git
+cd VidioCloneMobile
 
-When you're ready, run:
+shell
+Salin kode
 
-```bash
-npm run reset-project
-```
+### 2. Install Dependencies
+npm install
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+shell
+Salin kode
 
-## Learn more
+### 3. Jalankan Aplikasi
+npx expo start
 
-To learn more about developing your project with Expo, look at the following resources:
+yaml
+Salin kode
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### 4. Buka di Android Studio / Expo Go
+- Scan QR di terminal menggunakan **Expo Go**  
+**atau**
+- Jalankan emulator Android Studio
 
-## Join the community
+---
 
-Join our community of developers creating universal apps.
+## 📁 Struktur Folder
+/assets/images -> Semua gambar UI
+/components -> Buttonball dan komponen kecil
+/app/home.js -> Halaman utama UI
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+yaml
+Salin kode
+
+---
+
+## 👤 Developer
+**Rasya Iskandar**  
+Siswa RPL yang suka ngulik UI Mobile & Web.
+
+---
+
+## ⭐ Catatan
+Proyek ini hanya UI clone untuk tujuan pembelajaran, **tidak terkait dengan Vidio.com** secara resmi.
